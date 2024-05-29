@@ -1,0 +1,20 @@
+:root {
+  /* colors */
+  --color-transparent: transparent;
+  --color-current: currentcolor;
+  --color-primary: #39414B;
+  --color-border: #CFCFE4;
+  --color-white: #FFFFFF;
+  --color-bg-green: #5FBF77;
+
+  /* shadow */
+  --shadow-sm: 0px 10px 13px -4px #23235F30;
+
+  /* font */
+  --text-base-line-height: 18px;
+  --text-base-font-size: 18px;
+  --text-base-font-weight: 800;
+
+  /* spacing */
+  --spacing: -0.1px;
+}

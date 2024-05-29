@@ -1,0 +1,23 @@
+html,
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: var(--text-base-font-size);
+  font-weight: var(--text-base-font-weight);
+  line-height: var(--text-base-line-height);
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  letter-spacing: var(--spacing);
+}
+
+#root {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1551px;
+  padding: 24px;
+  margin: 0 auto;
+}

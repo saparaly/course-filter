@@ -1,0 +1,7 @@
+.btn {
+  @apply p-[12px] rounded-xl transition-colors flex justify-center;
+}
+
+.btn-primary {
+  @apply relative bg-bg-green !text-white;
+}
