@@ -7,7 +7,7 @@ export interface CardItemProps {
 
 const CardItem: FC<CardItemProps> = ({ card }) => {
   return (
-    <div className="rounded-[18px] bg-white shadow-sm w-full h-fit overflow-hidden">
+    <div className="rounded-[18px] bg-white shadow-sm w-full overflow-hidden">
         <div className={`w-full h-[162px]`} style={{ backgroundColor: card.bgColor }}>
            <img className="w-full h-full object-contain" src={`${card.image}`} alt="" /> 
         </div>

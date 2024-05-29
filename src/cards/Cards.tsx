@@ -9,12 +9,14 @@ export interface CardItemProps {
 const Cards: FC<CardItemProps> = ({ cards }) => {
 
   return (
-    <div className="grid grid-cols-3 gap-[18px] w-full">
-      {
-        cards.map((card) => (
-          <CardItem card={card} key={card.id} />
-        ))
-      }
+    <div>
+      <div className="grid grid-cols-3 gap-[18px] w-full">
+        {
+          cards.map((card) => (
+            <CardItem card={card} key={card.id} />
+          ))
+        }
+      </div>
     </div>
   )
 }
